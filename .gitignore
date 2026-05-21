@@ -1,0 +1,17 @@
+# large data (keep files locally, not in git history)
+data/
+notebooks/
+22i-0894_22i-2327_Submission/
+
+# model caches / heavy artifacts
+*.csv
+*.pkl
+*.npz
+
+# system junk
+__pycache__/
+*.pyc
+
+# IDE / system files
+.DS_Store
+.vscode/
